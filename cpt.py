@@ -5,7 +5,7 @@ import mysql.connector
 mydb = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="Dell@1234",
+    password="password",
     auth_plugin='mysql_native_password',
     database='attendance'
 )
